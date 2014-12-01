@@ -32,3 +32,31 @@ void main()
 	
 	system ("pause");
 }
+
+/*
+#include <iostream>
+using namespace std;
+
+void main()
+{
+	int manth;
+	cout << "Autor: Strebkov Valerii \<25PR21\>\n\n";
+	cout << "Enter the namber of monhts of the year - ";
+	cin >> manth;
+	cout << (
+		manth==1 ? "\tJanuary"   :
+		manth==2 ? "\tFabruary"  :
+		manth==3 ? "\tMarch"     :
+		manth==4 ? "\tApril"     :
+		manth==5 ? "\tMay"       :
+		manth==6 ? "\tJune"      :
+		manth==7 ? "\tJuly"      :
+		manth==8 ? "\tAugust"    :
+		manth==9 ? "\tSeptember" :
+		manth==10? "\tOctober"   :
+		manth==11? "\tNovember"  :
+		manth==12? "\tDecember"  :
+		"Year only 12 month!"
+		) << endl;
+
+}
