@@ -28,7 +28,7 @@ void main()
 	default: cout << "Vu mozhete vvodit tolko -0 && >12\n";
 	}
 
-	//if ( (0 >= counter) && (counter <12) )
+	
 	
 	system ("pause");
 }
@@ -40,7 +40,7 @@ using namespace std;
 void main()
 {
 	int manth;
-	cout << "Autor: Strebkov Valerii \<25PR21\>\n\n";
+	cout << "Autor: Biruikov_Oleksandr \<25PR21\>" << endl;
 	cout << "Enter the namber of monhts of the year - ";
 	cin >> manth;
 	cout << (
